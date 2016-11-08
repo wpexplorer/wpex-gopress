@@ -206,6 +206,7 @@ a:hover .loop-entry-video-overlay { text-shadow: 0 4px 4px rgba(0,0,0,0.5); }
 .author-info .author-info-inner { position: relative; padding-left: 100px; }
 .author-info .author-avatar { position: absolute; left: 0; top: 0; }
 .author-info .author-avatar img { border-radius: 2px; }
+.author-description { min-height: 75px; }
 
 /*related posts*/
 .related-posts { margin-bottom: 30px; }
