@@ -1,4 +1,3 @@
-.container { max-width: 92%; }
 /* Mobile Menu
 ================================================== */
 	a#navigation-toggle { height: 45px; line-height: 45px; margin: 0 0 0 20px; cursor: pointer; color: #fff; font-weight: 600; position: relative; z-index: 9; text-decoration: none !important; font-size: 1.1em; }
@@ -38,7 +37,7 @@
 /* Mobile (Portrait & Landscape)
 ================================================== */
 @media only screen and (max-width: 767px) {
-	#wrap { padding: 25px; }
+	#wrap { max-width: 100% }
 	.col{ width: 100%; margin-left: 0; margin-bottom: 25px; }
 	#header-aside{ display: none; }
 	#logo { max-width: none; float: none; }
