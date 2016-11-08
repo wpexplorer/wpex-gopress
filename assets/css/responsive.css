@@ -37,7 +37,7 @@
 /* Mobile (Portrait & Landscape)
 ================================================== */
 @media only screen and (max-width: 767px) {
-	#wrap { max-width: 100% }
+	#wrap { max-width: 100%; margin-bottom: 0; }
 	.col{ width: 100%; margin-left: 0; margin-bottom: 25px; }
 	#header-aside{ display: none; }
 	#logo { max-width: none; float: none; }
