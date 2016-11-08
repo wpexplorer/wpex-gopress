@@ -10,8 +10,9 @@ if ( ! function_exists( 'wpex_theme_setup' ) ) {
 	function wpex_theme_setup() {
 
 		// Content Width
+		global $content_width;
 		if ( ! isset( $content_width ) ) {
-			$content_width = 1000;
+			$content_width = 920;
 		}
 	
 		// Register navigation menus
