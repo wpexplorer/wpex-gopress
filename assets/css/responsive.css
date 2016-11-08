@@ -44,8 +44,6 @@
 	.post-meta .meta-comments { display: none; }
 	.commentlist .children { margin: 0 }
 	.single-post-pagination { position: inherit; top: auto; margin: 10px 0 0; right: auto; }
-	.author-info .author-info-inner { padding-left: 0; }
-	.author-info .author-avatar { position: inherit; top: auto; left: auto; display: block; margin-bottom: 10px; }
 	.featured-slider-caption-excerpt { display: none; }
 	.featured-slider-caption-title { margin: 0; }
 	.flex-control-nav a { font-size: 0.8em; height: 20px; line-height: 20px; width: 20px; }
@@ -62,6 +60,9 @@
 @media only screen and (max-width: 479px) {
 	.featured-slider-caption { padding: 10px; }
 	.featured-slider-caption-title { margin: 0; font-size: 14px; }
+	.author-info .author-info-inner { padding-left: 0; }
+	.author-info .author-avatar { position: inherit; top: auto; left: auto; display: block; margin-bottom: 10px; }
+	.author-description { min-height: initial; }
 	.loop-entry.has-post-thumbnail .loop-entry-left,
 	.loop-entry.has-post-thumbnail .loop-entry-right { float: none; width: 100%; }
 	.loop-entry.has-post-thumbnail .loop-entry-left { margin-bottom: 10px; }
