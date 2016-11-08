@@ -12,6 +12,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// reduce content width for oEmbed
+$content_width = 620;
+
 get_header(); ?>
 
 <div id="primary" class="content-area clr">
