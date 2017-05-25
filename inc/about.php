@@ -48,10 +48,9 @@ class WPEX_Welcome {
 	 */
 	public function admin_menus() {
 		
-		add_submenu_page(
-			'themes.php',
-			$this->theme_name .' '. __( 'Theme', 'wpex-gopress' ),
-			$this->theme_name .' '. __( 'Theme', 'wpex-gopress' ),
+		add_menu_page(
+			$this->theme_name .' '. esc_html__( 'Theme', 'wpex-gopress' ),
+			$this->theme_name .' '. esc_html__( 'Theme', 'wpex-gopress' ),
 			'manage_options',
 			'wpex-theme',
 			array( $this, 'recommended_screen' ),
