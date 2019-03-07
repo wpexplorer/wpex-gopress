@@ -9,7 +9,7 @@
 
 if ( ! function_exists( 'wpex_register_image_sizes' ) ) {
 	function wpex_register_image_sizes() {
-		add_image_size( 'wpex_page', 9999, 9999 );
+		add_image_size( 'wpex_page', 800, 9999 );
 		add_image_size( 'wpex_page_full', 9999, 9999 );
 		add_image_size( 'wpex_post', 800, 9999 );
 		add_image_size( 'wpex_home_slider', 800, 360, true );
